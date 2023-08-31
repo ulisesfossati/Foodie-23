@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+.bxt{
+    
+    padding-top: 8em;
+}
+
+.titulo{
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 2.7rem;
+letter-spacing: 2px;
+
+}
+
+.bxp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1em;
+}
+
+.abajop{
+    width: 26em;
+    text-align: center;
+    font-size: 0.8rem;
+    color: gray;
+   
+}
