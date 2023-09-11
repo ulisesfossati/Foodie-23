@@ -6,7 +6,7 @@
 }
 
 .hoja1{
-    background-color: gold;
+   
     padding-top: 4em;
     height: 70vh;
     display: flex;
@@ -23,7 +23,7 @@
 display: flex;
 align-items: center;
 justify-content: center;
-font-size: 3.5rem;
+font-size: 3rem;
 letter-spacing: 2px;
 
 }
@@ -107,13 +107,13 @@ padding-top: 1.2em;
 
 
 .hoja2{
-    padding-top: 12em;
+    padding-top: em;
   
    height: 80vh;
 }
 
-.titulo{
-    background-color: red;
+.titulog{
+    
     font-size: 2.2rem;
     letter-spacing: 0.2px;
     display: flex;
@@ -127,7 +127,7 @@ padding-top: 1.2em;
     text-align: center;
 }
 .txtgi{
-    background-color: aqua;
+    
     color: gray;
     display: flex;
     justify-content: center;
@@ -135,32 +135,56 @@ padding-top: 1.2em;
 }
 
 
+.productos{
+    display: flex;
+ margin-top: 3em;
+   justify-content: center;
+
+}
+
 .tarjeta{
-    background-color: pink;
+    /* background-color: pink; */
+    box-shadow: 5px 6px 20px rgba(0, 0, 0, 0.3);
     width: 16em;
     height: 18.5em;
     border-radius:10px;
     margin-top: 5em;
     
-    position: absolute;
+    position: relative;
 }
+
+.tarjetados{
+    /* background-color: pink; */
+    box-shadow: 5px 6px 20px rgba(0, 0, 0, 0.3);
+    width: 16em;
+    height: 18.5em;
+    border-radius:10px;
+    margin-top: 5em;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+    position: relative;
+}
+
+
+
 .circulo{
     border-radius: 20em;
     position: absolute;
     top: -4em;
-    left: 5.5em;
-    height: 10em;
-    width: 10em;
+    left: 7em;
+    height: 9em;
+    width: 9em;
     border: 13px solid #84B74E;
 }
 
 .prod{
- font-size: 2rem;
+ font-size: 1.8rem;
  letter-spacing: 0.8px;
- 
+ margin-bottom: 0.2em;
 position: absolute;
-margin-top: 5em;
-margin-left: 0.5em;    
+bottom: 3em;
+left: 0.6em;
+   
 }
 
 .estrellas{
@@ -171,6 +195,7 @@ margin-left: 0.5em;
     justify-content: center;
     align-items: center;
     text-align: center;
+    background-color: transparent;
 }
 
 .num{
@@ -178,3 +203,39 @@ margin-left: 0.5em;
     font-size: 0.6rem;
     margin-left: 0.5em;
 }
+.precio{
+    position: absolute;
+    top: 10em;
+    font-weight: bold;
+    left: 0.7em;
+    color: #84B74E;
+    font-size: 1.5rem;
+    letter-spacing: 0.5px;
+}
+
+.bolsa{
+    background-color: #84B74E;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 1.5em;
+    border-radius:8px;
+    cursor: pointer;
+
+
+}
+
+.bolsasa{
+  background-color: transparent;
+  width: 2.3em;
+  height: 2.3em;
+}
+
+.bolas{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5em;
+   
+}
+
