@@ -104,3 +104,77 @@ font-size: 0.8rem;
 width: 17.5em;
 padding-top: 1.2em;
 }
+
+
+.hoja2{
+    padding-top: 12em;
+  
+   height: 80vh;
+}
+
+.titulo{
+    background-color: red;
+    font-size: 2.2rem;
+    letter-spacing: 0.2px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.tmn{
+    width: 29em;
+    text-align: center;
+}
+.txtgi{
+    background-color: aqua;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+}
+
+
+.tarjeta{
+    background-color: pink;
+    width: 16em;
+    height: 18.5em;
+    border-radius:10px;
+    margin-top: 5em;
+    
+    position: absolute;
+}
+.circulo{
+    border-radius: 20em;
+    position: absolute;
+    top: -4em;
+    left: 5.5em;
+    height: 10em;
+    width: 10em;
+    border: 13px solid #84B74E;
+}
+
+.prod{
+ font-size: 2rem;
+ letter-spacing: 0.8px;
+ 
+position: absolute;
+margin-top: 5em;
+margin-left: 0.5em;    
+}
+
+.estrellas{
+    position: absolute;
+    top: 13em;
+    left: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.num{
+    color: gray;
+    font-size: 0.6rem;
+    margin-left: 0.5em;
+}
